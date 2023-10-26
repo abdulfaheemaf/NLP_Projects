@@ -1,6 +1,6 @@
 # Text Encoding and Classification Project
 
-This is my Text Encoding and Classification Project...! This project demonstrates various encoding techniques, and for each encoding technique i had built a classification model. These encodings and models can be used for various natural language processing (NLP) tasks. Below, i had provided details about each encoder and its corresponding classification model:
+This is my Text Encoding and Classification Project...! The project demonstrates various encoding techniques, with a built classification model for each technique. These encodings and models can be used for various natural language processing (NLP) tasks. Below, I have provided details about each encoder and its corresponding classification model.
 
 ## One-Hot Encoding:
   - One-Hot Encoding is a simple yet effective way to represent words in a binary format. In this model, each word is assigned a unique index in the vocabulary, and its one-hot encoded vector has a single element set to 1, while all others are 0.
