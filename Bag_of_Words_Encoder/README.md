@@ -32,3 +32,6 @@ Review_2   1      1    1          0  1        1         1
 In this representation, each row represents a review, and each column represents a word from the vocabulary. The values in the matrix indicate how many times each word appears in the corresponding review.
 
 The Bag of Words model is a fundamental concept in text analysis and is used for various NLP tasks, including text classification, sentiment analysis, and information retrieval. It's important to note that BoW does not capture the semantic meaning of words or the word order in the text, which can limit its effectiveness for some NLP tasks. More advanced techniques like TF-IDF and word embeddings address some of these limitations.
+
+# Dataset:
+https://www.kaggle.com/datasets/mexwell/fake-reviews-dataset
