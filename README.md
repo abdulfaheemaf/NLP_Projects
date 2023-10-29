@@ -11,12 +11,12 @@ This is my Text Encoding and Classification Project...! The project demonstrates
   - BoW represents a document as a vector of word frequencies. It doesn't consider word order but is useful for text classification and information retrieval.
 
  **Classification Model:**
-    In our BoW project, we used the IMDB Movie Reviews dataset to build a powerful text classification model. It effectively distinguishes between positive and negative sentiment in movie reviews, providing valuable insights for film enthusiasts and critics.
+    In our BoW project, i used the IMDB Movie Reviews dataset to build a powerful text classification model. It effectively distinguishes between positive and negative sentiment in movie reviews, providing valuable insights for film enthusiasts and critics.
 
 ## N-grams:
   - N-grams represent sequences of adjacent words of a specified length (e.g., unigrams, bigrams, trigrams). They capture local word patterns.
  
-   **Classification Model:**
+   **Classification Model:** In our N-grams project, I employed a comprehensive dataset of fake reviews to build a robust text classification model, enabling accurate detection of deceptive content and safeguarding the integrity of online platforms.
 ## TF-IDF (Term Frequency-Inverse Document Frequency):
   - TF-IDF represents the importance of words in a document relative to a collection of documents. It's often used for information retrieval and document ranking.
   
