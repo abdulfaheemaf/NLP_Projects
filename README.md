@@ -5,7 +5,7 @@ This is my Text Encoding and Classification Project...! The project demonstrates
 ## One-Hot Encoding:
   - One-Hot Encoding is a simple yet effective way to represent words in a binary format. In this model, each word is assigned a unique index in the vocabulary, and its one-hot encoded vector has a single element set to 1, while all others are 0.
   
-    **Classification Model:**
+  **Classification Model:**
 
 ## Bag of Words (BoW):
   - BoW represents a document as a vector of word frequencies. It doesn't consider word order but is useful for text classification and information retrieval.
@@ -15,7 +15,7 @@ This is my Text Encoding and Classification Project...! The project demonstrates
 ## TF-IDF (Term Frequency-Inverse Document Frequency):
   - TF-IDF represents the importance of words in a document relative to a collection of documents. It's often used for information retrieval and document ranking.
   
-   **Classification Model:**
+  **Classification Model:**
     
 ## N-grams:
   - N-grams represent sequences of adjacent words of a specified length (e.g., unigrams, bigrams, trigrams). They capture local word patterns.
@@ -25,6 +25,6 @@ This is my Text Encoding and Classification Project...! The project demonstrates
 ## Word Embeddings:
   - Word embeddings, such as Word2Vec, GloVe, and FastText, represent words as dense, continuous-valued vectors in a lower-dimensional space. These embeddings capture semantic relationships between words and are used for various NLP tasks.
   
-    **Classification Model:**
+  **Classification Model:**
   
 The choice of encoding depends on the specific NLP task, dataset, and the properties of the text you are working with. Different encodings may be more suitable for tasks such as text classification, sentiment analysis, named entity recognition, machine translation, and more.
