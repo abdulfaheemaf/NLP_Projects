@@ -2,21 +2,7 @@
 
 Welcome to the Fake Review Detection project! This project is designed to identify and classify fake or fraudulent reviews from genuine ones using the power of N-grams, a text analysis technique. Fake reviews can be a significant problem in online platforms, and this project aims to contribute to my effort of maintaining trust and integrity in online reviews.
 
-### Project Overview
-
-In this project, I leverage the concept of N-grams, which are contiguous sequences of 'N' items (typically words or characters) in a text. N-grams capture the local linguistic patterns and dependencies within text data. Here's how my Fake Review Detection project works:
-
-1. **Data Collection:** I gather a dataset of online reviews, which includes both genuine and potentially fake reviews. These reviews come from various sources, such as e-commerce platforms, restaurant apps, and more.
-
-2. **Preprocessing:** I preprocess the text data to remove noise and ensure consistency. This includes tasks like text cleaning, tokenization, and stop word removal.
-
-3. **Feature Extraction:** The heart of my project lies in feature extraction using N-grams. I analyze the text data to create N-gram representations, capturing sequences of words that are characteristic of both genuine and fake reviews.
-
-4. **Model Training:** I train a classification model, such as knn, naive bayes, logistic regression and random forests, using the N-gram features. The model learns to differentiate between fake and genuine reviews based on these features.
-
-5. **Evaluation:** I rigorously evaluate my model's performance using various metrics like accuracy, precision, recall, F1-score, and more. This step is crucial to ensure my model's effectiveness in detecting fake reviews.
-
-6. **Advantages:** My approach offers several advantages:
+**Advantages:** My approach offers several advantages:
 
    - **Robust Fake Review Detection:** The use of N-grams allows my model to capture subtle linguistic cues often found in fake reviews, making it robust against sophisticated fraudulent attempts.
    
@@ -39,3 +25,44 @@ This project empowers stakeholders to maintain the authenticity of online review
 I hope you find this project insightful and valuable for your endeavors. Please feel free to explore my code, datasets, and results to get a deeper understanding of my approach.
 
 ---
+# **N-grams**
+
+N-grams are contiguous sequences of n items from a given sample of text or speech. These items can be characters, words, or other units depending on the application. N-grams are commonly used in natural language processing (NLP) and computational linguistics for various text analysis tasks. The "N" in N-grams represents the number of items in each sequence.
+
+Here are some common types of N-grams:
+
+1. **Unigrams (1-grams):** In the context of text, unigrams are single words. For example, in the sentence "I love programming," the unigrams are "I," "love," and "programming."
+
+2. **Bigrams (2-grams):** Bigrams consist of pairs of adjacent words or characters. In the same sentence, the bigrams are "I love" and "love programming."
+
+3. **Trigrams (3-grams):** Trigrams are sequences of three consecutive words or characters. For the sentence, "I love programming," the trigrams are "I love programming."
+
+4. **4-grams, 5-grams, and so on:** These N-grams consist of sequences of four, five, or more adjacent words or characters, depending on the value of "N."
+
+N-grams capture local patterns and dependencies in text data, making them valuable for a wide range of NLP and text analysis tasks. The choice of "N" (the number of items in the sequence) depends on the specific task and the level of context you want to capture.
+
+### **In My Words: N-grams for Capturing Word Order**
+
+In language, sentence meaning depends on the order of words. For instance:
+
+- "*AF watched the movie and slept on the bed.*"
+
+Changing the word order alters the meaning:
+
+- "*AF slept the movie and watched on the bed.*"
+
+N-grams extend the Bag of Words (BoW) technique, enabling the capture of word order. BoW disregards word order, but with N-grams, we can model word sequences, making it useful for various applications.
+
+**BoW:** BoW is a special case of N-grams with N equal to 1, capturing individual word tokens. In contrast, N-grams capture word pairs, like a moving window.
+
+- **Bigram Example:** "AF-watched," "watched-the," "the-movie," etc.
+
+- **Trigram Example:** "AF-watched-the," "watched-the-movie," "the-movie-and," etc.
+
+The generic term for this concept is 'n-gram,' which can be 4-gram, 5-gram, and beyond. N-grams reveal meaningful word sequences.
+
+## **Limitations of Bag of N-grams Model:**
+
+1. As "n" increases, dimensionality and sparsity increase.
+
+2. The model doesn't address the out-of-vocabulary (OOV) problem.
