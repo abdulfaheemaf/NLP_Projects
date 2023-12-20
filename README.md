@@ -21,6 +21,7 @@ This is my Text Encoding and Classification Project...! The project demonstrates
   - TF-IDF represents the importance of words in a document relative to a collection of documents. It's often used for information retrieval and document ranking.
   
   **Classification Model:**
+      Utilizing TF-IDF, my project facilitates the generation of concise summaries based on user-provided text. This feature leverages TF-IDF scores to distill essential information, offering users succinct summaries that encapsulate the main points of their input.
     
     
 ## Word Embeddings:
